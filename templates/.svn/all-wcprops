@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 28
+/!svn/ver/53/trunk/templates
+END
+setup_craigslist_tool.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/!svn/ver/62/trunk/templates/setup_craigslist_tool.tpl
+END
+addlisting_choose_type.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/!svn/ver/50/trunk/templates/addlisting_choose_type.tpl
+END
+update_notice.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/50/trunk/templates/update_notice.tpl
+END
+phone_contact.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/62/trunk/templates/phone_contact.tpl
+END
+register.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/50/trunk/templates/register.tpl
+END
+editaccount_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/50/trunk/templates/editaccount_form.tpl
+END
+home.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/50/trunk/templates/home.tpl
+END
+setup_google_tool.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/61/trunk/templates/setup_google_tool.tpl
+END
+guest_nav.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/50/trunk/templates/guest_nav.tpl
+END
+welcome.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/50/trunk/templates/welcome.tpl
+END
+_photos_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/50/trunk/templates/_photos_form.tpl
+END
+reports.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/50/trunk/templates/reports.tpl
+END
+tools.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/63/trunk/templates/tools.tpl
+END
+results.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/!svn/ver/59/trunk/templates/results.tpl
+END
+prompt_for_contact.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/50/trunk/templates/prompt_for_contact.tpl
+END
+old_viewlisting.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/50/trunk/templates/old_viewlisting.tpl
+END
+editlisting_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/61/trunk/templates/editlisting_form.tpl
+END
+edit_tags.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/50/trunk/templates/edit_tags.tpl
+END
+viewlisting.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/62/trunk/templates/viewlisting.tpl
+END
+addlisting_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/50/trunk/templates/addlisting_form.tpl
+END
+old_login.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/50/trunk/templates/old_login.tpl
+END
+faq.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/50/trunk/templates/faq.tpl
+END
+_password_email.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/50/trunk/templates/_password_email.tpl
+END
+login.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/50/trunk/templates/login.tpl
+END
+search_form_full.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/50/trunk/templates/search_form_full.tpl
+END
+_floorplan_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/50/trunk/templates/_floorplan_form.tpl
+END
+_photos_default.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/50/trunk/templates/_photos_default.tpl
+END
+password_retrieval.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/50/trunk/templates/password_retrieval.tpl
+END
+search_form_small.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/57/trunk/templates/search_form_small.tpl
+END
+oodle_item.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/64/trunk/templates/oodle_item.tpl
+END
+edit_photos.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/50/trunk/templates/edit_photos.tpl
+END
+list_lease.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/56/trunk/templates/list_lease.tpl
+END
+google_base_item.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/60/trunk/templates/google_base_item.tpl
+END
+edit_floorplans.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/50/trunk/templates/edit_floorplans.tpl
+END
+oodle_feed.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/64/trunk/templates/oodle_feed.tpl
+END
+setup_facebook_tool.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/62/trunk/templates/setup_facebook_tool.tpl
+END
+register_ajax.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/50/trunk/templates/register_ajax.tpl
+END
+search_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/53/trunk/templates/search_form.tpl
+END
+help.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/!svn/ver/53/trunk/templates/help.tpl
+END
+loggedout.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/50/trunk/templates/loggedout.tpl
+END
+google_base_feed.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/60/trunk/templates/google_base_feed.tpl
+END
+morephotos.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/50/trunk/templates/morephotos.tpl
+END
+_floorplan_default.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/50/trunk/templates/_floorplan_default.tpl
+END
+saved_spaces.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/50/trunk/templates/saved_spaces.tpl
+END
+myproperties.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/61/trunk/templates/myproperties.tpl
+END
+popup.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/50/trunk/templates/popup.tpl
+END
+_taglist.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/50/trunk/templates/_taglist.tpl
+END
+index.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/63/trunk/templates/index.tpl
+END
+all.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/!svn/ver/50/trunk/templates/all.tpl
+END
+about.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/50/trunk/templates/about.tpl
+END
+member_nav.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/63/trunk/templates/member_nav.tpl
+END
+old_save_form.tpl
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/50/trunk/templates/old_save_form.tpl
+END

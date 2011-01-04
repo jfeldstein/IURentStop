@@ -1,0 +1,238 @@
+8
+
+dir
+55
+http://svn.iurentstop.com/trunk/admin
+http://svn.iurentstop.com
+
+
+
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+aaec09d6-de59-0410-b446-b940a43ba76a
+
+smarty
+dir
+
+ownerDetails.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+02ae1fea7755057fd63b5c76c8b1e0f8
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+properties.csv
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+0d040e5ff535e108a272bd5b349659e6
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+style.css
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+b8db3c8105232d2b5598f402d0e69558
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+edittags.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+af10ccbae4a5d5199f3786d7582b7dbd
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+index.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+6b07be3435e2fe65039cca214b434e52
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+templates
+dir
+
+savespace.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+097cd6dce4bb213ad1fb8ab21a7df861
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+db stagees
+dir
+
+tagSuggest.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+67f90512f451d8e60b44b365e6c7afe3
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+locationDetails.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+c830e191779185810d3c013724c58043
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+images
+dir
+
+limit_by_prox.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+4cd96887554d7a06f9f9e74cae0fb6e8
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+includes
+dir
+
+editphotos.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+2c72800dc42a47b6423b2a1529a26e1d
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+photomanager.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+cf4822c3c1abdaaf39ffda21de09601f
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+editfloorplans.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+318028fd752e48f7546f3adf2059cc93
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+js
+dir
+
+read_properties.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+500dc1541877ecbfad43fcfe60e10afc
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+floorplanmanager.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+ff57dfa8004c2a1ab546ef670a4191da
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+email.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+05bf6ae70aaea3253070c9c2872a87d4
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+savelocation.php
+file
+
+
+
+
+2009-03-12T03:53:56.000000Z
+914eccb3ae75046598641eca1a7c142c
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+

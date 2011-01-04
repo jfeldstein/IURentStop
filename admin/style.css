@@ -1,0 +1,225 @@
+table.closed tr {
+	display					: none;
+}
+
+*{ margin:0;}
+
+#search {
+	float					: right;
+	height					: 100%;
+	vertical-align			: middle;
+	padding					: 2px 1mm 0 0;
+}
+
+#header {
+	border-bottom			: 1px solid #ccc;
+	padding-bottom			: 1mm;
+}
+
+#header h1 {
+	display					: inline;
+}
+
+#header p {
+	display					: inline;
+	font-size				: 85%;
+}
+
+#links {
+	background-color		: #FDD;
+	line-height				: 22px;
+	font-size				: 14px;
+	border-bottom			: 1px solid #ccc;
+	margin-bottom			: 5mm;
+}
+#links a {
+	margin					: 0 3px;
+	padding					: 2px 5px;
+}
+#links a:hover {
+	background-color		: #FCC;
+}
+
+#main {
+	margin-bottom			: 3mm;
+}
+
+#main p {
+	margin					: 2mm 0 1mm 1.5cm; 
+}
+
+#footer {
+	border-top				: 1px solid #CCC;
+	color					: #BABABA;
+	clear					: both;
+	background-color		: #FFF;
+	width					: 100%;
+	font-size				: 14px;
+	text-align				: right;
+	padding					: 1mm 0 1mm 0;
+	position				: fixed;
+	bottom					: 0;
+}
+#footer a {
+	font-weight				: bold;
+	color					: #CCC;
+}
+
+.result_tag {
+	white-space				: nowrap;
+	font-size				: 80%;
+	font-style 				: italic;
+	display					: inline;
+	margin					: 0 1mm;
+}
+
+
+.pageTitle{
+	font-size				: 20px;
+	margin					: 2mm 0 3mm 4mm;
+}
+
+.message {
+	margin					: auto;
+	width					: 450px;
+	font-size				: 110%;
+	border-bottom			: 2px solid #E55;
+	padding					: 6px;
+	margin-bottom			: 3mm;
+}
+
+.displayTable tbody tr, .spaceTable tbody tr {
+	background-color		: #FFF;
+}
+.spaceTable tbody tr {
+	cursor					: pointer;
+}
+.spaceTable select, .displayTable select {
+	min-width				: 105px;
+}
+
+thead {
+	background-color		: #DDD;
+	font-weight				: bold;
+	height					: 30px;
+}
+.spaceTable, .displayTable {
+	width					: 600px;
+	background-color		: #FFF;
+	margin-left				: 2cm;
+	border					: 1px solid #000;
+	border-bottom			: 2px solid #000;
+	border-right			: 2px solid #000;
+	margin-bottom			: 4mm;
+	css-padding				: 0;
+}
+.spaceTable td, .displayTable td {
+	padding					: 1mm;
+}
+.spaceTable tbody tr:hover {
+	background-color		: #FCC;
+}
+
+label {
+	cursor					: pointer;
+}
+
+#tagCloud{
+	text-align				: center;
+	margin					: 3mm 0;
+}
+
+.tag {
+	white-space				: nowrap;
+	font-size				: 115%;
+	margin					: 1mm 2mm;
+	cursor					: pointer;
+}
+.tag:hover {
+	text-decoration			: underline;
+}
+.selected{
+	font-weight				: bold;
+	color					: #A00;
+}
+
+.button  {
+	height					: 170px;
+	vertical-align			: bottom;
+}
+
+.imageBtn {
+	display					: inline;
+	margin					: 1mm;
+	border					: 2mm solid #fff;
+	cursor					: pointer;
+}
+.imageBtn.visible {
+	border					: 2mm solid #0C0;
+}
+.imageBtn.withheld {
+	border					: 2mm solid #DD0;
+}
+
+.selected { 
+	background-color		: #f1f1f1; 
+}
+#suggestionBox { 
+	border					: 1px solid black; 
+	background-color		: #FFF;
+}
+#suggestionBox ul {
+	margin					: 1px;
+	padding					: 0px;
+}
+#suggestionBox li {
+	padding					: 2px;
+	list-style-type			: none;
+	white-space				: nowrap;
+}
+
+a {
+	text-decoration			: none;
+	color					: #D33;
+}
+
+img  {
+  border					: 0px;
+}
+
+ul, ol {
+	margin-left				: 5mm;
+}
+
+p {
+	margin-bottom			: 2mm;
+}
+
+blockquote {
+	padding					: 1mm 1mm 1mm 2mm;
+	margin					: 3mm 1mm 3mm 8mm;
+	border					: 1px solid #BBF;
+}
+
+table {
+	border-spacing			: 0;
+}
+
+input.money {
+	padding-left			: 10px;
+	background-image		: url(images/dollar.gif);
+	background-repeat		: no-repeat;
+	background-position		: -1px -1px;
+	border					: 1px solid #666666;
+}
+
+body {
+	padding					: 0;
+	margin					: 0;
+	color					: #000000;
+	font-family				: arial, verdana, sans-serif;
+	font-size				: 85%;
+	background-image		: url(images/iu.gif);
+	background-position		: -180px 65px;
+	background-repeat		: no-repeat;
+}

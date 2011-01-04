@@ -1,0 +1,88 @@
+8
+
+dir
+55
+http://svn.iurentstop.com/trunk/smarty
+http://svn.iurentstop.com
+
+
+
+2009-03-09T04:44:26.347538Z
+52
+msfeldstein
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+aaec09d6-de59-0410-b446-b940a43ba76a
+
+internals
+dir
+
+templates_c
+dir
+
+plugins
+dir
+
+Smarty_Compiler.class.php
+file
+
+
+
+
+2009-03-12T03:53:51.000000Z
+e9a2dd9a16a0206583cfe02b758b59da
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+debug.tpl
+file
+
+
+
+
+2009-03-12T03:53:51.000000Z
+def6c6e062941c8b2986f9f977b26307
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+configs
+dir
+
+Smarty.class.php
+file
+63
+
+
+
+2009-03-17T22:07:59.000000Z
+99116c32b1468f98bc830e83096db6c3
+2009-04-17T01:04:37.974683Z
+63
+msfeldstein
+
+Config_File.class.php
+file
+
+
+
+
+2009-03-12T03:53:51.000000Z
+a6ed67e2208f7589489248c31299aaf8
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+

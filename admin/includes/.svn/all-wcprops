@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/!svn/ver/50/trunk/admin/includes
+END
+class.allspaces.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/50/trunk/admin/includes/class.allspaces.php
+END
+class.alltags.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/!svn/ver/50/trunk/admin/includes/class.alltags.php
+END
+class.location.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/50/trunk/admin/includes/class.location.php
+END
+class.thing.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/50/trunk/admin/includes/class.thing.php
+END
+class.allusers.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/!svn/ver/50/trunk/admin/includes/class.allusers.php
+END
+class.space.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/!svn/ver/60/trunk/admin/includes/class.space.php
+END
+class.tag.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/50/trunk/admin/includes/class.tag.php
+END
+class.user.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/50/trunk/admin/includes/class.user.php
+END
+class.sql.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/50/trunk/admin/includes/class.sql.php
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/!svn/ver/50/trunk/admin/includes/class.phpmailer.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/!svn/ver/50/trunk/admin/includes/config.php
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/!svn/ver/50/trunk/admin/includes/class.smtp.php
+END
+class.alllocations.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/!svn/ver/50/trunk/admin/includes/class.alllocations.php
+END
+functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/50/trunk/admin/includes/functions.php
+END

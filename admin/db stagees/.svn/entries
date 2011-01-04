@@ -1,0 +1,52 @@
+8
+
+dir
+55
+http://svn.iurentstop.com/trunk/admin/db%20stagees
+http://svn.iurentstop.com
+
+
+
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+aaec09d6-de59-0410-b446-b940a43ba76a
+
+just imported.sql
+file
+
+
+
+
+2009-03-12T03:53:55.000000Z
+5e85b4334e45d6cb970aafab8dd8b08a
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+
+filtered listings.sql
+file
+
+
+
+
+2009-03-12T03:53:55.000000Z
+7c029147cad93975094d545eb5dd26b5
+2009-03-08T22:03:37.476673Z
+50
+msfeldstein
+

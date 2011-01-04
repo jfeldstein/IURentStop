@@ -1,0 +1,371 @@
+*{ margin:0;}
+
+#search {
+	float					: right;
+	height					: 100%;
+	vertical-align			: middle;
+	padding					: 2px 1mm 0 0;
+}
+
+#search_form label {
+	float: left;
+}
+
+#mapspace {
+	width					: 100%;
+	text-align 				: center;
+}
+
+#header {
+	border-bottom			: 1px solid #ccc;
+	padding-bottom			: 1mm;
+}
+
+#header h1 {
+	display					: inline;
+}
+
+thead td {
+	width					: 600px;
+}
+
+.inactive { 
+	color: gray;
+	font-style: italic;
+}
+
+#header p {
+	display					: inline;
+	font-size				: 85%;
+}
+
+#links {
+	background-color		: #FDD;
+	line-height				: 22px;
+	font-size				: 14px;
+	border-bottom			: 1px solid #ccc;
+	font-weight				: bold;
+}
+#links a {
+	font-weight				: normal;
+	margin					: 0 3px 0 1px;
+	padding					: 2px 5px 0 5px;
+}
+#links a:hover {
+	background-color		: #FCC;
+}
+
+#main {
+	padding-bottom			: 3mm;
+	padding-top				: 4mm;
+	min-height				: 435px;
+	max-width				: 780px;
+	margin					: auto; 
+	font-size				: 15px;	
+}
+
+#main p {
+	margin					: 2mm 0 1mm 1.5cm; 
+}
+
+#footer {
+	border-top				: 1px solid #CCC;
+	color					: #BABABA;
+	clear					: both;
+	background-color		: #FFF;
+	width					: 100%;
+	font-size				: 14px;
+	text-align				: right;
+	padding					: 1mm 0 1mm 0;
+	position				: fixed;
+	bottom					: 0;
+	z-index					: 9999;
+}
+#footer a {
+	font-weight				: bold;
+	color					: #AAA;
+}
+
+#search_form td {
+	padding					: 1mm;
+}
+.searchTitle {
+	font-size				: 18px;
+}
+
+.result_tag {
+	white-space				: nowrap;
+	font-size				: 80%;
+	font-style 				: italic;
+	display					: inline;
+	margin					: 0 1mm;
+	color					: #000;
+}
+
+
+.pageTitle{
+	font-size				: 20px;
+	margin					: 2mm 0 3mm 4mm;
+}
+
+.message {
+	margin					: auto;
+	width					: 500px;
+	font-size				: 110%;
+	border-bottom			: 2px solid #E55;
+	padding					: 6px;
+	margin-bottom			: 3mm;
+}
+.message ul {
+	margin-left				: 0;
+}
+
+.displayTable tbody tr, .spaceTable tbody tr {
+	background-color		: #FFF;
+}
+.spaceTable tbody tr {
+	cursor					: pointer;
+}
+.spaceTable select, .displayTable select {
+	min-width				: 105px;
+}
+
+thead {
+	background-color		: #DDD;
+	font-weight				: bold;
+	height					: 30px;
+}
+.spaceTable, .displayTable {
+	width					: 650px;
+	background-color		: #FFF;
+	border					: 1px solid #000;
+	border-bottom			: 2px solid #000;
+	margin					: auto;
+	border-right			: 2px solid #000;
+	margin-bottom			: 4mm;
+	css-padding				: 0;
+}
+.spaceTable td, .displayTable td {
+	padding					: 1mm;
+}
+.spaceTable tbody tr:hover {
+	background-color		: #FCC;
+}
+
+
+label {
+	cursor					: pointer;
+}
+
+#tagCloud{
+	text-align				: center;
+	margin					: 3mm 0;
+}
+
+.tag {
+	white-space				: nowrap;
+	font-size				: 115%;
+	margin					: 1mm 2mm;
+	cursor					: pointer;
+}
+.tag:hover {
+	text-decoration			: underline;
+}
+.selected{
+	font-weight				: bold;
+	color					: #A00;
+}
+
+.button  {
+	height					: 170px;
+	vertical-align			: bottom;
+}
+
+.imageBtn {
+	display					: inline;
+	margin					: 1mm;
+	border					: 2mm solid #fff;
+	cursor					: pointer;
+}
+.imageBtn.visible {
+	border					: 2mm solid #0C0;
+}
+.imageBtn.withheld {
+	border					: 2mm solid #DD0;
+}
+
+.selected { 
+	background-color		: #f1f1f1; 
+}
+
+.pseudoHR {
+	height					: 1px;
+	border-top				: 1px dotted #ccc;
+	margin					: 1mm 0;
+}
+
+#suggestionBox { 
+	border					: 1px solid black; 
+	background-color		: #FFF;
+}
+#suggestionBox ul {
+	margin					: 1px;
+	padding					: 0px;
+}
+#suggestionBox li {
+	padding					: 2px;
+	list-style-type			: none;
+	white-space				: nowrap;
+}
+
+a {
+	text-decoration			: none;
+	color					: #D33;
+}
+
+img  {
+  border					: 0px;
+}
+
+ul, ol {
+	margin-left				: 5mm;
+}
+
+p {
+	margin-bottom			: 2mm;
+}
+
+blockquote {
+	padding					: 1mm 1mm 1mm 2mm;
+	margin					: 3mm 1mm 3mm 8mm;
+	border					: 1px solid #BBF;
+}
+
+table {
+	border-spacing			: 0;
+}
+
+input.money {
+	padding-left			: 10px;
+	background-image		: url(images/dollar.gif);
+	background-repeat		: no-repeat;
+	background-position		: -1px -1px;
+	border					: 1px solid #666666;
+}
+
+body {
+	padding					: 0;
+	margin					: 0;
+	color					: #000000;
+	font-family				: arial, verdana, sans-serif;
+	font-size				: 85%;
+	background-position		: 0px 60px;
+	background-repeat		: no-repeat;
+	overflow-y				: scroll;
+}
+/* - - - - - - - - - - - - - - - - - - - - -
+
+Title : Lightbox CSS
+Author : Kevin Hale
+URL : http://particletree.com/features/lightbox-gone-wild/
+
+Created : January 13, 2006
+Modified : February 1, 2006
+
+- - - - - - - - - - - - - - - - - - - - - */
+
+#lightbox{
+	display:none;
+	position: absolute;
+	top:50%;
+	left:40%;
+	z-index:9999;
+	width:750px;
+	height:350px;
+	margin:-220px 0 0 -250px;
+	border:1px solid #000;
+	background:#FFF;
+	text-align:left;
+}
+#lightbox[id]{
+	position:fixed;
+}
+#overlay{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	z-index:5000;
+	background-color:#FFF;
+	-moz-opacity: 0.8;
+	opacity:.80;
+	filter: alpha(opacity=80);
+}
+#overlay[id]{
+	position:fixed;
+}
+
+#lightbox.done #lbLoadMessage{
+	display:none;
+}
+#lightbox.done #lbContent{
+	display:block;
+}
+#lightbox.loading #lbContent{
+	display:none;
+}
+#lightbox.loading #lbLoadMessage{
+	display:block;
+}
+
+#reallightbox{
+	background-color:#eee;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	}
+#reallightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}	
+#reallightboxCaption{ float: left; }
+#realkeyboardMsg{ float: right; }
+
+#reallightbox img{ border: none; } 
+#realoverlay img{ 
+	border: none;
+	background-color: #000;
+	back\ground-color: transparent;
+	background-image: url(images/overlay.gif);
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="overlay.png", sizingMethod="scale");
+}
+.fb_share_link { padding:2px 0 0 20px; height:16px; background:url(http://static.ak.fbcdn.net/images/share/facebook_share_icon.gif?2:26981) no-repeat top left; }
+
+#tt {
+ position:absolute;
+ display:block;
+ background:url(images/tt_left.gif) top left no-repeat;
+ }
+ #tttop {
+ display:block;
+ height:5px;
+ margin-left:5px;
+ background:url(images/tt_top.gif) top right no-repeat;
+ overflow:hidden;
+ }
+ #ttcont {
+ display:block;
+ padding:2px 12px 3px 7px;
+ margin-left:5px;
+ background:#666;
+ color:#fff;
+ }
+#ttbot {
+display:block;
+height:5px;
+margin-left:5px;
+background:url(images/tt_bottom.gif) top right no-repeat;
+overflow:hidden;
+}

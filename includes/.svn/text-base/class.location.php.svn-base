@@ -1,0 +1,224 @@
+<?php
+// Dependancies
+include_once('./includes/class.thing.php');
+
+class Location extends Thing
+{
+	var $id;
+	var $name;
+	var $address;
+	var $belongs_to_user_id;
+	var $type;
+	var $spaces = array();
+	var $error;
+	var $latitude;
+	var $longitude;
+	var $premium;
+	
+	function Location( $id )
+	{
+			
+		global $db;	
+		
+		$sql = "SELECT * FROM `locations` WHERE `id`='$id'";
+		$result = $db->Run($sql);
+		
+		if($db->NumRows($result) == 0)
+		{
+			$this->id = -1;
+			return false;
+		}
+			
+		$tmp = $db->FetchRow($result);
+		$this->id			= $tmp['id'];
+		$this->name 		= $tmp['name'];
+		$this->address		= ucwords(strtolower($tmp['address']));
+		$this->type 		= $tmp['type'];
+		$this->belongs_to_user_id = $tmp['user_id'];
+		$this->spaces 		= $this->get_spaces();
+		$this->tags			= $this->get_tags();
+		$this->latitude		= $tmp['latitude'];
+		$this->longitude	= $tmp['longitude'];
+		$this->premium		= $tmp['premium'];
+		$this->all_photos	= $this->get_photos();
+		$this->listing_photos=$this->get_listing_photos();
+		
+		return true;
+	}
+	
+	private function get_spaces()
+	{
+		global $db;	
+		
+		$sql = "SELECT * FROM `spaces` WHERE `location_id`='".$this->id."' ORDER BY `bedrooms` ASC, `bathrooms` ASC";
+		$rows = $db->FetchRowSet($db->Run($sql));
+		
+		$spaces = array();
+		
+		if(count($rows))
+		{
+			foreach($rows as $space_row)
+			{ 
+				$space = new Space($space_row['id']);
+				$spaces[] = $space->to_array();
+			}
+		}
+		
+		return $spaces;
+	}
+	
+	function new_space_from_form(&$FORM)
+	{
+		global $db;	
+		
+		/*
+		if(eregi('^[0-9]{1,2}$', $FORM['space_bedrooms'])===false)
+		{
+			$FORM['space_bedrooms'] = '';
+			$this->error = "Couldn't add the space: How many bedrooms are there?";
+			return false;
+		}
+		if(eregi('^[0-9]{1,2}(\.[0-9])?$', $FORM['space_bathrooms'])===false)
+		{
+			$FORM['space_bathrooms'] = '';
+			$this->error = "Couldn't add the space: How many bathrooms are there?";
+			return false;
+		}
+		if(eregi('^[0-9]{1,4}(\.[0-9]{1,2})?$', $FORM['space_rent'])===false || $FORM['space_rent']/$FORM['space_bedrooms']<200)
+		{
+			$FORM['space_rent'] = '';
+			$this->error = "Couldn't add the space: How much is the rent for the whole lease?";
+			return false;
+		}
+		if(eregi('^[0-9]{1,3}$', $FORM['space_available'])===false)
+		{
+			$FORM['space_available'] = '';
+			$this->error = "Couldn't add the space: How many are available?";
+			return false;
+		}
+		*/
+		$sql = "INSERT INTO `spaces` "
+			." (`available`, `bedrooms`, `bathrooms`, `rent`, `location_id`) "
+			." VALUES "
+			." ('".$FORM['space_available']."', '".$FORM['space_bedrooms']."', '".$FORM['space_bathrooms']."', '".$FORM['space_rent']."', '" . $this->id . "');";
+		$result = $db->Run($sql);
+		$id = $db->RowID();
+		
+		$space = new Space($id);
+		
+		return $space;
+	}
+	
+	function to_array()
+	{
+		$array['id'] 		= $this->id;
+		$array['name'] 		= $this->name;
+		$array['address'] 	= $this->address;
+		$array['type'] 		= $this->type;
+		$array['belongs_to_user_id'] = $this->belongs_to_user_id;
+		$array['spaces'] 	= $this->spaces;
+		$array['tags']		= $this->tags;
+		$array['latitude']	= $this->latitude;
+		$array['longitude']	= $this->longitude;
+		$array['all_photos']= $this->all_photos;
+		$array['premium']	= $this->premium;
+		$array['listing_photos']	= $this->listing_photos;
+		
+		return $array;
+	}
+	
+	function save_from_form($FORM) 
+	{
+		global $db;	
+		
+		if($_SESSION['user_id'] != $this->belongs_to_user_id)
+			return false;
+			
+		$coords = $this->get_coords($FORM['location_address']);
+		if($coords===false)
+			return false;
+			
+		$type = (in_array($FORM['location_type'], array('house','apartment'))) ? $FORM['location_type'] : $this.type;
+		
+		$sql = "UPDATE `locations` SET "
+				." `name`	= '" . $FORM['location_name'] . "', "
+				." `address`= '" . $FORM['location_address'] . "', "
+				." `latitude`	= '" . $coords['latitude'] . "', "
+				." `longitude`	= '" . $coords['longitude'] . "', "
+				." `type`	= '$type' "
+			." WHERE `id`='" .$this->id."'";
+		$db->Run($sql);
+		
+		return true;
+	}
+	
+	function get_coords($q=false)
+	{		
+		global $CONFIG;
+		
+		if(!$q)
+		{ $q = $this->address; }
+		
+		$q 		= urlencode($q.', Bloomington, Indiana');
+		
+		$key 	= $CONFIG['google_key'];
+		$r 		= new HTTPRequest("http://maps.google.com/maps/geo?q=$q&key=$key&output=csv");
+		$csv 	= $r->DownloadToString();
+		$values = explode(',', $csv);
+		
+		$coords = array(
+			'latitude'=> $values[2],
+			'longitude'=> $values[3]);
+		
+		if($coords['latitude']==0 || $coords['longitude']==0)
+		{
+			$_SESSION['messages'][] = "The address '".$this->address."' could not be located in Bloomington.";
+			$_SESSION['messages'][] = "See the <a href='faq.php#nogeocode' target='_faq'>help page</a> for more information.";
+		}
+		 else
+		{
+			return $coords;
+		}
+	}
+	
+	function delete()
+	{		
+		global $db;	
+		
+		$spaces = $this->spaces;
+		foreach($spaces as $space)
+		{
+			$space = new Space($space['id']);
+			$this->delete_space($space);
+		}
+		
+		$sql = "DELETE FROM `locations` WHERE `id`='".$this->id."'";
+		$db->Run($sql);
+		
+		$this->spaces = array();
+		$this->id = 0;
+	}
+	
+	function delete_space($space)
+	{
+		global $db;	
+		
+		$space = (get_class($space)=='Space') ? $space : new Space($space);
+		foreach($space->tags as $tag)
+		{
+			$space->untag($tag['id']);
+		}
+		
+		$sql = "DELETE FROM `spaces` WHERE `id`='".$space->id."'";
+		$db->Run($sql);
+		
+		$sql = "DELETE FROM `starred_spaces` WHERE `space_id`='".$space->id."'";
+		$db->Run($sql);
+		
+		$this->spaces = $this->get_spaces();
+		
+		return true;
+	}
+}
+
+?>

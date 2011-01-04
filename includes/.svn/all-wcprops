@@ -1,0 +1,107 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/!svn/ver/50/trunk/includes
+END
+class.alltags.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/!svn/ver/50/trunk/includes/class.alltags.php
+END
+class.allusers.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/50/trunk/includes/class.allusers.php
+END
+class.space.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/60/trunk/includes/class.space.php
+END
+class.computer.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/50/trunk/includes/class.computer.php
+END
+class.sql.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/50/trunk/includes/class.sql.php
+END
+config.php
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/!svn/ver/64/trunk/includes/config.php
+END
+functions.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/64/trunk/includes/functions.php
+END
+class.allspaces.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/64/trunk/includes/class.allspaces.php
+END
+class.location.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/!svn/ver/64/trunk/includes/class.location.php
+END
+class.thing.php
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/!svn/ver/50/trunk/includes/class.thing.php
+END
+class.allcomputers.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/50/trunk/includes/class.allcomputers.php
+END
+class.tag.php
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/!svn/ver/50/trunk/includes/class.tag.php
+END
+class.user.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/62/trunk/includes/class.user.php
+END
+class.phpmailer.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/50/trunk/includes/class.phpmailer.php
+END
+class.array2xml.php
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/!svn/ver/60/trunk/includes/class.array2xml.php
+END
+class.smtp.php
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/!svn/ver/50/trunk/includes/class.smtp.php
+END
+class.alllocations.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/!svn/ver/50/trunk/includes/class.alllocations.php
+END
